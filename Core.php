@@ -13,6 +13,7 @@ defined('ABSPATH') || exit();
 include_once 'class/Menu_User.php';
 include_once 'class/MetaBox_VideoUrl.php';
 include_once 'class/PostType_Book.php';
+include_once 'class/Taxonomy_Writer.php';
 
 /**
  * Class Core
@@ -112,6 +113,7 @@ class Core
         new Menu_User();
         new MetaBox_VideoUrl();
         new PostType_Book();
+        new Taxonomy_Writer();
     }
 }
 
