@@ -1,10 +1,10 @@
 <?php
 /**
- * The Widget_info class extends the abstract BaseWidget class, creating a custom dashboard widget in WordPress.
+ * The Widget_ExampleInfo class extends the abstract BaseWidget class, creating a custom dashboard widget in WordPress.
  */
 include_once 'BaseWidget.php';
 
-class Widget_info extends BaseWidget
+class Widget_ExampleInfo extends BaseWidget
 {
     /**
      * Constructor method to set properties inherited from the BaseWidget class.

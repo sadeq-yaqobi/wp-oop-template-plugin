@@ -2,11 +2,11 @@
 include_once 'BaseCustomPostType.php';
 
 /**
- * Class PostType_Book
+ * Class PostType_ExampleBook
  *
  * Represents a custom post type for books in WordPress.
  */
-class PostType_Book extends BaseCustomPostType
+class PostType_ExampleBook extends BaseCustomPostType
 {
     /**
      * Constructor for the class.

@@ -2,11 +2,11 @@
 include_once 'BaseMenu.php';
 
 /**
- * Class Menu_User
+ * Class Menu_ExampleUser
  *
  * A specific implementation of a menu for managing users in the WordPress admin.
  */
-class Menu_User extends BaseMenu
+class Menu_ExampleUser extends BaseMenu
 {
     /**
      * Constructor for the class.

@@ -2,11 +2,11 @@
 include_once 'BaseMetaBox.php';
 
 /**
- * Class MetaBox_VideoUrl
+ * Class MetaBox_ExampleVideoUrl
  *
  * A specific implementation of a meta box for handling video URLs in WordPress posts.
  */
-class MetaBox_VideoUrl extends BaseMetaBox
+class MetaBox_ExampleVideoUrl extends BaseMetaBox
 {
     /**
      * Constructor for the class.

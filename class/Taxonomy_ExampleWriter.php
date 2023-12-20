@@ -3,9 +3,9 @@
 include_once "BaseTaxonomy.php";
 
 /**
- * Taxonomy_Writer class extends the BaseTaxonomy class to create a custom 'writer' taxonomy in WordPress.
+ * Taxonomy_ExampleWriter class extends the BaseTaxonomy class to create a custom 'writer' taxonomy in WordPress.
  */
-class Taxonomy_Writer extends BaseTaxonomy
+class Taxonomy_ExampleWriter extends BaseTaxonomy
 {
     /**
      * Constructor method to set specific values for the 'writer' taxonomy.

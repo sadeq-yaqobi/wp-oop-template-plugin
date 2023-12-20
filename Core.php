@@ -10,11 +10,11 @@
  */
 
 defined('ABSPATH') || exit();
-include_once 'class/Menu_User.php';
-include_once 'class/MetaBox_VideoUrl.php';
-include_once 'class/PostType_Book.php';
-include_once 'class/Taxonomy_Writer.php';
-include_once 'class/Widget_info.php';
+include_once 'class/Menu_ExampleUser.php';
+include_once 'class/MetaBox_ExampleVideoUrl.php';
+include_once 'class/PostType_ExampleBook.php';
+include_once 'class/Taxonomy_ExampleWriter.php';
+include_once 'class/Widget_ExampleInfo.php';
 
 /**
  * Class Core
@@ -111,11 +111,11 @@ class Core
     public function load_entities()
     {
         // Load plugin entities, such as the User entity by new objects.
-        new Menu_User();
-        new MetaBox_VideoUrl();
-        new PostType_Book();
-        new Taxonomy_Writer();
-        new Widget_info();
+        new Menu_ExampleUser();
+        new MetaBox_ExampleVideoUrl();
+        new PostType_ExampleBook();
+        new Taxonomy_ExampleWriter();
+        new Widget_ExampleInfo();
     }
 }
 
