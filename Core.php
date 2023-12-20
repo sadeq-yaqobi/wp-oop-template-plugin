@@ -14,6 +14,7 @@ include_once 'class/Menu_User.php';
 include_once 'class/MetaBox_VideoUrl.php';
 include_once 'class/PostType_Book.php';
 include_once 'class/Taxonomy_Writer.php';
+include_once 'class/Widget_info.php';
 
 /**
  * Class Core
@@ -114,6 +115,7 @@ class Core
         new MetaBox_VideoUrl();
         new PostType_Book();
         new Taxonomy_Writer();
+        new Widget_info();
     }
 }
 
