@@ -15,6 +15,7 @@ include_once 'class/MetaBox_ExampleVideoUrl.php';
 include_once 'class/PostType_ExampleBook.php';
 include_once 'class/Taxonomy_ExampleWriter.php';
 include_once 'class/Widget_ExampleInfo.php';
+include_once 'class/Setting_ExampleGatePay.php';
 
 /**
  * Class Core
@@ -116,6 +117,7 @@ class Core
         new PostType_ExampleBook();
         new Taxonomy_ExampleWriter();
         new Widget_ExampleInfo();
+        new Setting_ExampleGatePay();
     }
 }
 
