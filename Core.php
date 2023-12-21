@@ -33,6 +33,7 @@ class Core
     {
         $this->define_constants();
         $this->init();
+//        echo "<script>alert('plugin is working')</script>";
     }
 
     /**
@@ -55,6 +56,7 @@ class Core
         register_deactivation_hook(__FILE__, [$this, 'deactivation']);
         add_action('admin_enqueue_scripts', [$this, 'register_assets']); // Register assets on admin side
         add_action('wp_enqueue_scripts', [$this, 'register_assets']); // Register assets on front side
+        $this->load_entities();
     }
 
     /**

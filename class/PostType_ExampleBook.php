@@ -13,7 +13,7 @@ class PostType_ExampleBook extends BaseCustomPostType
      */
     public function __construct()
     {
-        // Call the parent class constructor
+// Call the parent class constructor
         parent::__construct();
 
         // Set specific values for the book custom post type
