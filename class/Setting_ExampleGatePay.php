@@ -1,5 +1,5 @@
 <?php
-include_once 'BaseSetting.php';
+
 
 // Child class extending the base setting class
 class Setting_ExampleGatePay extends BaseSetting

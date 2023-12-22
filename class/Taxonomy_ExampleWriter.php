@@ -1,6 +1,5 @@
 <?php
-// Include the BaseTaxonomy class for inheritance
-include_once "BaseTaxonomy.php";
+
 
 /**
  * Taxonomy_ExampleWriter class extends the BaseTaxonomy class to create a custom 'writer' taxonomy in WordPress.

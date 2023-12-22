@@ -1,5 +1,5 @@
 <?php
-include_once 'BaseCustomPostType.php';
+
 
 /**
  * Class PostType_ExampleBook

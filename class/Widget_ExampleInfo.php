@@ -2,7 +2,7 @@
 /**
  * The Widget_ExampleInfo class extends the abstract BaseWidget class, creating a custom dashboard widget in WordPress.
  */
-include_once 'BaseWidget.php';
+
 
 class Widget_ExampleInfo extends BaseWidget
 {

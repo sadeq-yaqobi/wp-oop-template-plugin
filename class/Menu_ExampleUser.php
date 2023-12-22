@@ -1,6 +1,5 @@
 <?php
-include_once 'BaseMenu.php';
-include_once 'Users.php';
+include_once 'AjaxHandler.php';
 
 /**
  * Class Menu_ExampleUser
@@ -10,13 +9,18 @@ include_once 'Users.php';
 class Menu_ExampleUser extends BaseMenu
 {
     use Users;
+
     /**
      * Constructor for the class.
      *
      * Sets up the menu properties and calls the parent constructor.
      */
+
     public function __construct()
     {
+
+        // Calling the parent constructor
+        parent::__construct();
         // Setting up menu properties
         $this->page_title = 'صفحه مدیریت کاربران';
         $this->menu_title = 'مدیریت کاربران';
@@ -34,19 +38,7 @@ class Menu_ExampleUser extends BaseMenu
                 'menu_slug' => 'add-user',
                 'callback' => 'add_user',
                 'position' => ''
-            ],
-            'transaction_user' => [
-                'parent_slug' => $this->menu_slug,
-                'page_title' => 'صفحه تراکنش های کاربر',
-                'menu_title' => 'تراکنش‌های کاربر',
-                'menu_slug' => 'transaction_user',
-                'callback' => 'transaction_user',
-                'position' => ''
             ]
         ];
-
-        // Calling the parent constructor
-        parent::__construct();
     }
-    
 }

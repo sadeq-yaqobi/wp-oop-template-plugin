@@ -1,5 +1,4 @@
 <?php
-include_once 'BaseMetaBox.php';
 
 /**
  * Class MetaBox_ExampleVideoUrl
