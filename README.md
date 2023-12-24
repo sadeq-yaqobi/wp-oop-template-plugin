@@ -11,11 +11,11 @@ This WordPress plugin serves as a demonstration of Object-Oriented Programming (
 - [Getting Started](#getting-started)
     - [Extending Abstract Classes](#extending-abstract-classes)
     - [Handling AJAX Requests](#handling-ajax-requests)
-- [Conclusion](#conclusion)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
+- [Conclusion](#conclusion)
 - [License](#license)
 - [Author](#author)
 
@@ -48,6 +48,18 @@ This WordPress plugin serves as a sample project to showcase the implementation 
 - **Setting_ExampleGatePay.php:** Example of extending the base setting class to create specific settings.
 - **Taxonomy_ExampleWriter.php:** Specific implementation of a custom taxonomy for writers.
 - **Widget_ExampleInfo.php:** Specific implementation of a custom dashboard widget.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/sadeq-yaqobi/wp-oop-plugin.git`
+2. Upload the `wp-oop-plugin` directory to the `/wp-content/plugins/` directory.
+3. Activate the plugin through the 'Plugins' menu in WordPress.
+
+## Usage
+
+1. After activating the plugin, navigate to the WordPress admin dashboard.
+2. Explore the provided menu, meta box, and custom post type functionalities.
+3. Customize and extend the plugin according to your project requirements.
 
 ## Getting Started
 
@@ -88,22 +100,6 @@ This WordPress plugin serves as a sample project to showcase the implementation 
 3. **Call AJAX in JavaScript:**
     - Use the `wp_ajax` or `wp_ajax_nopriv` action in your JavaScript to make the AJAX request.
 
-## Conclusion
-
-By extending the provided abstract classes and leveraging the OOP principles demonstrated in this plugin, you can create modular, maintainable, and extensible WordPress plugins with ease. Customize each component to fit your project's requirements and build powerful, organized solutions for your WordPress development.
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/sadeq-yaqobi/wp-oop-plugin.git`
-2. Upload the `wp-oop-plugin` directory to the `/wp-content/plugins/` directory.
-3. Activate the plugin through the 'Plugins' menu in WordPress.
-
-## Usage
-
-1. After activating the plugin, navigate to the WordPress admin dashboard.
-2. Explore the provided menu, meta box, and custom post type functionalities.
-3. Customize and extend the plugin according to your project requirements.
-
 ## Features
 
 - Demonstrates the use of Object-Oriented Programming in WordPress.
@@ -113,6 +109,10 @@ By extending the provided abstract classes and leveraging the OOP principles dem
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Conclusion
+
+By extending the provided abstract classes and leveraging the OOP principles demonstrated in this plugin, you can create modular, maintainable, and extensible WordPress plugins with ease. Customize each component to fit your project's requirements and build powerful, organized solutions for your WordPress development.
 
 ## License
 
